@@ -1,0 +1,52 @@
+.fancytree-node {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.fancytree-title {
+    font-weight: bold;
+}
+
+.folder-icon {
+    color: $$__FOLDER_COLOR__$$;
+}
+
+.file-icon {
+    color: $$__FILE_COLOR__$$;
+}
+
+.link {
+    color: $$__FILE_COLOR__$$;
+    font-weight: bolder;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $$__BG_COLOR__$$;
+}
+
+#header {
+    margin: 10px !important;
+    font-family: cursive;
+    color: $$__FILE_COLOR__$$;
+}
+
+#heading {
+    margin-left: 10px !important;
+    text-decoration: underline;
+}
+
+#tree {
+    margin: 8px !important;
+    width: 99% !important;
+}
+
+#tree>ul {
+    border-color: $$__FOLDER_COLOR__$$;
+    border-width: 5px;;
+}
